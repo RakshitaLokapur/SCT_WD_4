@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>To-Do Web App</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+  <div class="app-container">
+    <h1>📝 To-Do List</h1>
+    <p class="subtitle">Organize your tasks efficiently</p>
+
+    <div class="input-group">
+      <input type="text" id="taskInput" placeholder="Enter your task..." />
+      <input type="date" id="taskDate" />
+      <input type="time" id="taskTime" />
+      <button onclick="addTask()">Add Task</button>
+    </div>
+
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

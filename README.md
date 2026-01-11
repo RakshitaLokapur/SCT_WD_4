@@ -46,13 +46,6 @@ Project Structure
 ├── script.js       # JavaScript logic
 └── README.md       # Project documentation
 
-#How to Run the Project
-
-Clone the repository:
-
-git clone https://github.com/RakshitaLokapur/todo-web-app.git
-
-
 Open the project folder
 
 Double-click on index.html
